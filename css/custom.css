@@ -1,0 +1,60 @@
+/*
+* Table of contents
+* 1. General styles
+*/
+
+.width-400 {
+  width: 400px !important;
+}
+.signupton {
+  padding: 15px !important;
+    border: 1px solid #efefef !important;
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.05) !important;
+}
+.digitext {
+    margin-top: 15% !important;
+    color: #fff !important;
+    font-weight: 100 !important;
+}
+.africa {
+    color: #008ed3 !important;
+}
+.begin-1 {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+.begin-2 {
+    margin-bottom: -0.25em !important; 
+    color: #008ed3 !important;
+    margin-top: -1em !important;
+}
+.begin-3 {
+    color: #6b6b6b !important;
+}
+.begin-4 {
+    margin-bottom: -0.5em !important;
+}
+.begin-5 {
+    margin-top: 5% !important;
+}
+.verif {
+    margin-top: 25% !important;
+}
+.colour-1 {
+    color: #008ed3 !important;
+}
+.enroll {
+    padding: 4px !important;
+    border: 1px solid #efefef !important;
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.05) !important;
+    font-size: 12px !important;
+    text-transform: lowercase !important;
+}
+.sect {
+    border-bottom: 1px solid #efefef !important;
+}
+.hrlii {
+    border: 0 !important;
+    height: 20px !important;
+    position: relative;background: radial-gradient(ellipse at bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 70%) !important;
+}

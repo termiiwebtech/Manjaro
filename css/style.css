@@ -58,8 +58,9 @@ body.dark .content-wrapper {
   background-color: #343434;
 }
 .logo {
-     width: 113px;
-    height: 35px;
+    width: 130px;
+    height: 25px;
+    margin-top: 10px;
 }
 a {
   color: #2e2e2e;
@@ -73,7 +74,11 @@ a:focus {
 }
 .form-control,
 .btn {
-  font-size: 16px;
+    font-size: 15px !important;
+    line-height: 1.625em;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
 }
 .form-control {
   border-radius: 3px;
@@ -765,7 +770,7 @@ ul.menu {
 .navbar-container {
   height: 70px;
   border-bottom: solid 1px #eceff0;
-    box-shadow: inset 0px 0px 60px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
 }
 .navbar-container .navbar-brand {
   padding-top: 13px;
@@ -1826,10 +1831,9 @@ margin-top: 60px;
     bottom: 0;
     left: 50%;
     margin-left: 380px;
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     color: #000;
     padding: 15px;
-    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.07);
 }
 .channel .img .c-social a {
   display: inline-block;
@@ -2096,6 +2100,7 @@ margin-top: 60px;
   border-right: 4px;
   overflow: hidden;
     background: #fff;
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.07);
 }
 .channels .content-block .channels-content .theme-section .cns-block .cns-image {
   position: relative;
@@ -2143,6 +2148,7 @@ margin-top: 60px;
   margin-top: 18px;
   margin-bottom: 6px;
   color: #343434;
+  line-height: 1.625em;
 }
 .channels .content-block .channels-content .theme-section .cns-block .cns-info h5 i {
   position: absolute;
